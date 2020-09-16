@@ -1,0 +1,27 @@
+    
+
+body{
+    background-color: darksalmon;
+}
+
+.container{
+    width: 464px;
+    height: 150px;
+    position: relative;
+    top: 200px;
+    left: 450px;
+    padding: 5px;
+    border: 1px solid #888;
+    border-radius: 2px;
+}
+.hour,.sec,.min{
+    width: 150px;
+    height: 150px;
+    color:#fff;
+    background-color: darkcyan;
+    font-size: 128px;
+    float: left;
+    margin: 0 2px;
+    border-radius: 2px;
+    text-align: center;
+}
