@@ -1,0 +1,33 @@
+
+        body{
+            padding: 0;
+            margin:0;
+        }
+        #messageBox{
+            background-color: coral;
+            text-align: center;
+            color: #fff;
+            font-weight: 700;
+        }
+        #header{
+            height: 38px;
+            padding: 8px;
+            border-bottom: 1px solid #fff;
+            cursor: pointer;
+            
+        }
+        #content{
+            height: 200px;
+            padding: 10px;
+            display: none;
+        }
+        .close{
+            float: right;
+            position: relative;
+            top: -3px;
+            right: 15px;
+        }
+        .close:hover{
+            color: #fff;
+        }
+

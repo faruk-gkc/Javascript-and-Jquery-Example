@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#clickTo{
+    margin-top: 50px;
+    height: 40px;
+    background-color: tomato;
+    text-align: center;
+    border: 1px solid;
+    padding: 8px;
+}
+#panel{
+    background-color:royalblue;
+    text-align: center;
+    border: 1px solid;
+    padding: 60px;
+}

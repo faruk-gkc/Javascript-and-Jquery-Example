@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box{
+    width: 700px;
+    height: 500px;
+    background-color: tomato;
+    border: 1px solid;
+    margin: 10px;
+    padding: 15px;
+  }
+  .draggable{
+    width: 100px;
+    height: 100px;
+    background-color:royalblue;
+    border: 1px solid;
+    float: left;
+    margin-right: 80px;
+  }
+.droppable{
+    width: 250px;
+    height: 200px;
+    background-color:greenyellow;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .dropID{
+    background-color:lightsalmon;
+    color: #777;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }

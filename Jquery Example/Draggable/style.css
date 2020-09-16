@@ -1,0 +1,14 @@
+.box{
+    width: 700px;
+    height: 500px;
+    background-color: tomato;
+    border: 1px solid;
+    margin: 10px;
+    padding: 15px;
+  }
+  .insideBox{
+    width: 100px;
+    height: 100px;
+    background-color:royalblue;
+    border: 1px solid;
+  }

@@ -1,0 +1,9 @@
+$(function(){
+$("#clickTo").click(function(){
+    $("#panel").slideUp(1000,function(){
+        $(this).slideDown(1000,function(){
+            $(this).css("color","white").css("background-color","green");
+        });
+    });
+});
+});

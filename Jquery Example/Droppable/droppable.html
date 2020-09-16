@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Droppable</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Example,Work,Bootcamp">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript,Jquery,Responsive">
+    <meta name="author" content="Faruk Gökcegöz">
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Jquery UI CSS -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+</head>
+
+<body>
+     
+    <div class="box" id="box">
+        <div class="draggable" id="draggable"></div>
+        <div class="droppable" id="droppable">  
+            <p>Drop here</p>
+        </div>
+    </div>
+
+
+  <!--Jquery UI JS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+
+<script>
+        $(document).ready(function(){
+            $("#draggable").draggable();
+            $("#droppable" ).droppable({ drop: function(event,ui) {
+            $(this).addClass("dropID").find( "p" ).html( "Dropped!" );
+      }
+    });
+        });
+</script>
+
+</body>
+</html>
